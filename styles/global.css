@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&family=Satisfy&display=swap');
+
+@import url('fonts/Sacramento\,Satisfy.zip');
+
+html{
+    background-color: rgb(247, 202, 229);
+    font-size: 20px;
+    font-family: 'Sacramento', serif;
+}
+
+body {
+    width: 80%;
+    max-width: 1200px;
+    min-width: 600px;
+    margin: 0 auto;
+    background-color: rgb(247, 202, 229);
+}
+
+h2 {
+    font-size: 30px;
+    text-decoration: underline;
+
+}
+
+p{
+    font-size: 25px;
+}
+
+dd{
+    font-size: 25px;
+}
+
+li{
+    font-size: 25px;
+    font-weight: 400;
+}
+
+#top-header {
+    background-color: rgb(247, 202, 229);
+    border: rgb(237, 114, 188) 10px double;
+    padding: 1em;
+    font-family: 'Sacramento', sans-serif;
+    text-align: center;
+    font-size: larger;
+    position: sticky;
+    top: 0;
+}
+
+#top-header img {
+    width: 50%;
+    height: auto;
+    vertical-align: middle;
+}
+
+#prime-nav {
+    background-color: rgb(247, 202, 229);
+    padding: .5em 1em;
+    font-family: 'Sacramento', sans-serif;
+}
+
+#prime-nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    color: #CCC;
+}
+
+#prime-nav li {
+    text-align: center;
+    display: inline;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+#prime-nav a {
+    text-align: center;
+    color:rgb(0, 0, 0);
+    text-decoration: none; 
+    font: 30px;
+    align-items: center;
+    
+}
+dt{
+    font-weight: 900;
+    text-decoration: underline;
+
+}
+main{ 
+    width: 98%;
+    margin: 0 auto
+
+}
+
+.float-fig{
+    align-items: center;
+    float: left;
+}
+
+.pgraph{
+    margin-top: 0;
+}
+
+footer{
+    outline-offset: -1px;
+    padding: 20px 0;    
+    text-align: center; 
+    position: fixed;
+    bottom: 0;
+    width: 80%;
+    max-width: 1440px;
+}
+
+footer a {
+    text-decoration: none;
+    padding: 0 20px;
+
+}
+
+footer a:link {
+    color: rgb(237, 114, 188);
+
+}
+footer a:visited{
+    color:indigo;
+}
+
+.art {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap:20px;
+    justify-content: center;
+    align-items: center;
+}
+.art img {
+    justify-self: center;
+}
+
